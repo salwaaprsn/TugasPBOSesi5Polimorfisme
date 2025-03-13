@@ -19,7 +19,7 @@ public class Bank {
     }
 
     public double hitungBiayaTransfer(String bankTujuan, int jumlah) {
-        // Biaya transfer default
+        
         double biaya = 0;
         if (bankTujuan.equals("BNI")) {
             biaya = jumlah * 0.01; 
